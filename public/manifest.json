@@ -1,0 +1,15 @@
+{
+  "short_name": "samespace",
+  "name": "Samespace Webapp",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "96x97"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

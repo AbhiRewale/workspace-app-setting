@@ -1,0 +1,62 @@
+{
+  "name": "workspace-transcript",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.4.10",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-http": "^1.5.17",
+    "formik": "^2.2.9",
+    "graphql": "^15.6.1",
+    "moment-timezone": "^0.5.33",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "samespace-zen": "git+ssh://git@github.com/samespace/space-ui-kit.git#beta-dist",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "watch:css": "postcss ./src/assets/styles.css -o ./src/assets/styles.generated.css",
+    "watch": "chokidar \"./src/**/*.js\" -c \"yarn watch:css\"",
+    "dev": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build",
+    "prestart": "yarn watch:css",
+    "start": "concurrently --raw \"yarn watch\" \"yarn dev\"",
+    "add-zen": "yarn add git+ssh://git@github.com/samespace/space-ui-kit.git#beta-dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^10.3.1",
+    "chokidar-cli": "^2.1.0",
+    "concurrently": "^6.2.0",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.4"
+  }
+}
