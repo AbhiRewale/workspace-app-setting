@@ -10042,7 +10042,7 @@ safe-regex@^1.1.0:
 
 "samespace-zen@git+ssh://git@github.com/samespace/space-ui-kit.git#beta-dist":
   version "1.0.0"
-  resolved "git+ssh://git@github.com/samespace/space-ui-kit.git#55d81ddb5f9bc51dccd19a27724f3ee165380c9b"
+  resolved "git+ssh://git@github.com/samespace/space-ui-kit.git#bfb08dde528ea485052c60f62a8e92fbcfdadc36"
 
 sane@^4.0.3:
   version "4.1.0"
@@ -12081,3 +12081,8 @@ zen-observable@0.8.15, zen-observable@^0.8.0:
   version "0.8.15"
   resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.15.tgz#96415c512d8e3ffd920afd3889604e30b9eaac15"
   integrity sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==
+
+zen@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/zen/-/zen-0.1.7.tgz#063f2f00ddf7c8c1f20f5840e91507b60dbcbfc8"
+  integrity sha512-5njs6PLPDcMH+/mg9yv/hRcncck9mz6yLIs7iWQSMNM1KMmviCK9Yxiyj2N3QubSeI9Q7cDEhv5OawLUVM0AjQ==

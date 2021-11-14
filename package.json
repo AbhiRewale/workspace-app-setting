@@ -16,7 +16,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "samespace-zen": "git+ssh://git@github.com/samespace/space-ui-kit.git#beta-dist",
-    "yup": "^0.32.11"
+    "yup": "^0.32.11",
+    "zen": "^0.1.7"
   },
   "scripts": {
     "watch:css": "postcss ./src/assets/styles.css -o ./src/assets/styles.generated.css",

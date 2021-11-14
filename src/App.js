@@ -5,16 +5,21 @@ import Navbar from "./components/Navbar";
 import SideMenu from "./components/SideMenu";
 import AllCards from './components/AllCards';
 import Setting from './components/Setting';
+import ReportUI from './components/ReportUI'
+import ReportTabs from "./components/ReportTabs";
 
 import "./assets/styles.generated.css";
+
 
 function App() {
   return (
     <AppWrapper>
       <Navbar/>
-      <SideMenu/>
+      {/* <SideMenu/> */}
       {/* <AllCards/> */}
-      <Setting/>
+      {/* <Setting/> */}
+      <ReportTabs/>
+      <ReportUI/>
     </AppWrapper>
   );
 }
